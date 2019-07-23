@@ -5,7 +5,7 @@ using System;
 namespace ConsoleUi.Tests
 {
     [TestFixture]
-    public class PersonTestss
+    public class PersonTests
     {
 
         [Test]
@@ -34,7 +34,7 @@ namespace ConsoleUi.Tests
         public static Person TestPerson()
         {
             return new Person
-            { FirstName = "Simon", LastName = "Burton", Dob = new DateTime(1976, 11, 14) };
+            { FirstName = "Simon", LastName = "Burton",MiddleName = "William", Dob = new DateTime(1976, 11, 14) };
         }
     }
 }

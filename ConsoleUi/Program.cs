@@ -7,7 +7,7 @@ namespace ConsoleUi
         public static void Main(string[] args)
         {
             var person = new Person
-            { FirstName = "Simon", LastName = "Burton", Dob = new DateTime(1976, 11, 14) };
+            { FirstName = "Simon", LastName = "Burton" ,MiddleName = "William", Dob = new DateTime(1976, 11, 14) };
 
 
             Console.WriteLine(person.AgeOnNextBirthday());
