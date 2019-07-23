@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleUi
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            var person = new Person
+            { FirstName = "Simon", LastName = "Burton", Dob = new DateTime(1976, 11, 14) };
+
+
+            Console.WriteLine(person.AgeOnNextBirthday());
         }
     }
 }
