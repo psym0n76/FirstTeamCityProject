@@ -10,13 +10,13 @@ namespace ConsoleUi
 
         public override string ToString()
         {
-            return $"{this.FirstName}.{this.LastName}";
+            return $"{FirstName}.{LastName}";
         }
 
 
         public int AgeOnNextBirthday()
         {
-            return DateTime.Now.Year - this.Dob.Year;
+            return DateTime.Now.Year - Dob.Year;
         }
     }
 }

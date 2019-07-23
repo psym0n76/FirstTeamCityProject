@@ -5,7 +5,7 @@ using System;
 namespace ConsoleUi.Tests
 {
     [TestFixture]
-    public class PersonTests
+    public class PersonTestss
     {
 
         [Test]
